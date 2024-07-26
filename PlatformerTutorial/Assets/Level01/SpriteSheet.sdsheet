@@ -1,0 +1,302 @@
+!SpriteSheet
+Id: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    ba1638db12ef8663873e33ad3c14fd00:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: WalkRight
+        TextureRegion: {X: 12, Y: 404, Width: 204, Height: 321}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9e0a44003eb3b84eeb8b514a060e0abb:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: WalkRight
+        TextureRegion: {X: 235, Y: 419, Width: 205, Height: 306}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    5660c2d08513d770a65117ab2cc21653:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: WalkRight
+        TextureRegion: {X: 459, Y: 404, Width: 201, Height: 321}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    c9df3002c398a79ed030ff8b6278edd9:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: WalkRight
+        TextureRegion: {X: 679, Y: 392, Width: 192, Height: 333}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    32fd1217dd0a8dd2b4f48a573c18e0e9:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: WalkRight
+        TextureRegion: {X: 890, Y: 407, Width: 203, Height: 318}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    04f1b11982b46308eef25b2a4722cdcc:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: WalkRight
+        TextureRegion: {X: 1112, Y: 405, Width: 203, Height: 320}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    23951a457ee8a741decfbd8e35ac33b9:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: WalkLeft
+        TextureRegion: {X: 1101, Y: 779, Width: 203, Height: 322}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    282b9096c78b552257fdd9ae91f98d8c:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: WalkLeft
+        TextureRegion: {X: 876, Y: 795, Width: 206, Height: 306}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    6ed1cb58cd754f1cbeb89abe4505106c:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: WalkLeft
+        TextureRegion: {X: 657, Y: 780, Width: 201, Height: 321}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    033591483ecdb3e3be154a870b9df177:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: WalkLeft
+        TextureRegion: {X: 445, Y: 768, Width: 193, Height: 332}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    957682ae00df023b053ac0384128670c:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: WalkLeft
+        TextureRegion: {X: 224, Y: 782, Width: 203, Height: 319}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    5f913ffba24bbc2e754b4e4d9cedb233:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: WalkLeft
+        TextureRegion: {X: 1, Y: 781, Width: 204, Height: 320}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    b9a336a56a2747b2e4ec9b862a82a932:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: JumpUpRight
+        TextureRegion: {X: 501, Y: 0, Width: 184, Height: 356}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    5e0b34325928551ac6e68c35a0af3b61:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: JumpUpLeft
+        TextureRegion: {X: 728, Y: 0, Width: 184, Height: 356}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1311eadca045b68704a25ee5d713c11e:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: IddleRight
+        TextureRegion: {X: 11, Y: 25, Width: 200, Height: 331}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    97885b33b4bc286d78218714c716147d:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: IddleLeft
+        TextureRegion: {X: 258, Y: 25, Width: 200, Height: 331}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    5af5edd983a4ad95897230ed2a6a190a:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Platform1
+        TextureRegion: {X: 31, Y: 1159, Width: 1884, Height: 672}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e1c0923b3edc8fab1d1c1fae52903314:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Platform2
+        TextureRegion: {X: 33, Y: 1848, Width: 526, Height: 478}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e2cddfe2377aab68550cd76fc7f7b89f:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Platform3
+        TextureRegion: {X: 590, Y: 1896, Width: 222, Height: 780}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    0b669fc30292799d603befe64708a7be:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Platform4
+        TextureRegion: {X: 876, Y: 1864, Width: 272, Height: 618}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    eb3148609f9196c621e3ef6df3ff59dc:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Platform5
+        TextureRegion: {X: 65, Y: 2888, Width: 460, Height: 74}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    89c4507810eb77063d58b4561a611710:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Platform6
+        TextureRegion: {X: 65, Y: 2990, Width: 460, Height: 74}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    8ac62e545f0b1b9919f09b27f3b3ff7d:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Platform7
+        TextureRegion: {X: 66, Y: 3117, Width: 270, Height: 74}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    7594a490cea57de7c576f45c0f827f86:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Platform8
+        TextureRegion: {X: 553, Y: 2883, Width: 222, Height: 74}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    cf0a289e4eb499c789fa2f4083c1c3ee:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Platform9
+        TextureRegion: {X: 555, Y: 2991, Width: 222, Height: 75}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    4363e8426fff7c1aecf6f209ac104fb8:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Platform10
+        TextureRegion: {X: 843, Y: 2859, Width: 271, Height: 106}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    510112329919340bff13737b4a519b2a:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Platform11
+        TextureRegion: {X: 836, Y: 2971, Width: 272, Height: 106}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    f5dec522256b91d65573ba5132eacf55:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Platform12
+        TextureRegion: {X: 1161, Y: 2868, Width: 525, Height: 125}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    296098d08c977c75e96417ed53a7b52c:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Platform13
+        TextureRegion: {X: 1169, Y: 3004, Width: 519, Height: 124}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    328a2f7b32618b4997e102ebc05178b9:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Underground
+        TextureRegion: {X: 29, Y: 2699, Width: 1849, Height: 147}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    5e409e1ce5a35b4a8a7bc8fda272fd7b:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Bush1
+        TextureRegion: {X: 1994, Y: 1305, Width: 260, Height: 147}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    2b93642a7426aa1c29481e083ce9ae7b:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Bush2
+        TextureRegion: {X: 2352, Y: 1285, Width: 292, Height: 167}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    fc01bd38d92cce4cf476b68bcd9b2bb8:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Bush3
+        TextureRegion: {X: 1993, Y: 1574, Width: 217, Height: 110}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e488b3e1323bc0a0ca977cd2210edb6b:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Bush4
+        TextureRegion: {X: 2352, Y: 1503, Width: 245, Height: 181}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    0169553f91f870f5b16d69dc37af309a:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Bush5
+        TextureRegion: {X: 1993, Y: 1776, Width: 202, Height: 141}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    79f5841d76eda39e0b32af303514856a:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Bush6
+        TextureRegion: {X: 2352, Y: 1747, Width: 334, Height: 170}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    127f05e892f7c137ca8a8291b344c448:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Bush7
+        TextureRegion: {X: 2745, Y: 1312, Width: 72, Height: 148}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    fed228c2bed42f0289c80f219ce7f447:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Bush8
+        TextureRegion: {X: 2847, Y: 1333, Width: 53, Height: 127}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    76007fd85d48a5c572480169ae55cc21:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Bush9
+        TextureRegion: {X: 2947, Y: 1333, Width: 53, Height: 127}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    cf382ea7e692eba042771a221f71ac98:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Tree1
+        TextureRegion: {X: 1317, Y: 2194, Width: 491, Height: 464}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a7b2e75c192d432b34bb084c6c555cf1:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Tree2
+        TextureRegion: {X: 1954, Y: 2019, Width: 441, Height: 639}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1810dd1e016febc00d3b2b3411735822:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Tree3
+        TextureRegion: {X: 2519, Y: 2287, Width: 514, Height: 371}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

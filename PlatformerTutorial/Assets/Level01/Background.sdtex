@@ -1,0 +1,7 @@
+!Texture
+Id: 6886b639-95e8-47ae-8059-19eec7a059f8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Level01/Background.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
