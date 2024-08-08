@@ -300,3 +300,17 @@ Sprites:
         Center: {X: 0.0, Y: 0.0}
         Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
         BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    128ad67a0e45d85e792949904e08deba:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Hill1
+        TextureRegion: {X: 1988, Y: 43, Width: 1126, Height: 587}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1a183dd960577cd9b653c6cf06431763:
+        Source: !file ../../Resources/Level01/SpriteSheet.png
+        Name: Hill2
+        TextureRegion: {X: 1988, Y: 698, Width: 1126, Height: 523}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

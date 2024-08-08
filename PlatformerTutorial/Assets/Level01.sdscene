@@ -9,8 +9,136 @@ Hierarchy:
         - ref!! 4d579abb-81b1-4443-aa5b-ec391ba16bce
         - ref!! 1bfddd08-cfa8-443e-b9b7-c44254193447
         - ref!! 98b3b686-ba5c-4e81-b9fe-d26b96a06b50
+        - ref!! 3c60af17-208d-4c7e-a2ee-1ccffe4b4f21
+        - ref!! 1d699832-4418-45b3-8b5e-b33cf54861ec
+        - ref!! 1977e799-4a6d-4e49-939c-d00e46e6fb23
         - ref!! 42694756-c145-45bb-b737-ad92d2b69242
+        - ref!! 136810b2-3b65-4a7b-9534-46ea7d4345d3
+        - ref!! d2c2b038-5614-4c06-b13e-00c7e54417b3
+        - ref!! 40e4bd9d-2ac5-467e-a9c7-ad8978de0da0
+        - ref!! 1a35c073-9b8d-496d-9602-f7d33d0e0721
+        - ref!! f3df12c3-2cfa-42f7-8eb0-943643e66ba6
+        - ref!! 3f468b45-fe6c-4f32-8931-2a50211f2ddc
+        - ref!! c35dda9d-f26e-4c3a-861a-17ab5448a519
+        - ref!! d1219b0f-bcb7-4674-aa48-5c261817dc7f
+        - ref!! ddfbee70-14aa-4d3f-8497-59724419e843
+        - ref!! ff2eae59-113a-432e-a343-89d17ae68074
+        - ref!! c739b448-2e48-4887-8e1f-2e4d5f8e55f0
+        - ref!! f5074b0d-0f0d-477f-929b-33ff27d8cad4
+        - ref!! a8177dc0-d1df-4c1e-b9d2-c4c1d2f05659
+        - ref!! c9aba220-f6b1-4566-a0bb-8a7bdff698d9
+        - ref!! d749d9c4-9fe1-4a67-b2bf-8df962a88d61
+        - ref!! 2a014faf-32bb-48ff-9418-783f509be09a
+        - ref!! b5316301-c7e1-4de6-8b8d-3220776af538
+        - ref!! 78816e70-a1bb-4b59-83d5-cf074c5bec00
+        - ref!! 809d7915-4aa2-47ad-94ed-9aff8c3b72bc
+        - ref!! f7fa74b3-1af3-4b47-920a-8ccf3f7b57af
+        - ref!! 75d08f1b-42a4-4c7e-aeb0-227b01859a43
+        - ref!! 66090274-10a0-4dd0-8de1-cda7b859ce60
+        - ref!! de2b3522-fc55-4205-8df8-cb51d2609058
+        - ref!! 6bbe82a7-f28b-4b10-8794-648c7be257b5
+        - ref!! 21367b76-f7d1-4c37-910f-daf2c4e3bc34
+        - ref!! ff960e85-e054-42b6-bc9c-9c91ceca44c8
     Parts:
+        -   Folder: WorldElements
+            Entity:
+                Id: 136810b2-3b65-4a7b-9534-46ea7d4345d3
+                Name: BigPlatform
+                Components:
+                    10f755d85ff82b47bc7b9f653b5b3b3e: !TransformComponent
+                        Id: ad138434-14fb-4694-bbe7-7366111ad9b3
+                        Position: {X: -10.118632, Y: -1.6380007, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.6837156, Z: 1.0}
+                        Children: {}
+                    70490ea1684c0f2f805eb873682268cf: !SpriteComponent
+                        Id: 8c2655f2-7529-4727-9ddb-58711ac3e065
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 18
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    0bf83327911e52aee58b9d8f45f437f8: !StaticColliderComponent
+                        Id: d3e12b4d-c8bb-45a7-baf3-7104a7342c5d
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            d6d8d8b697da823b4512782f3f651c42: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 1.9, Y: 7.8, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: 1977e799-4a6d-4e49-939c-d00e46e6fb23
+                Name: Ground
+                Components:
+                    c84dc826bc2a052f354fec34f337193f: !TransformComponent
+                        Id: cb7f284a-0a48-483f-8bff-569c2956a754
+                        Position: {X: 58.272324, Y: -4.8852196, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1c451403344a068fbb2d97d1b92b031a: !SpriteComponent
+                        Id: 5a0b2f33-e363-4ee5-8fd3-a3405e20f1f9
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 16
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    95e4518364216719df8fa1690a8d10cc: !StaticColliderComponent
+                        Id: 03f329e5-3920-4411-939f-540f1916e36a
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            4776a760b4ca8fab7a068c5f4b9f97fa: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 18.5, Y: 6.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: -0.2, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: 1a35c073-9b8d-496d-9602-f7d33d0e0721
+                Name: MediumPlatform
+                Components:
+                    8ae2ca9b0aa0d1e61b60d4153cf64872: !TransformComponent
+                        Id: 995a7ab9-ad76-45d4-a088-4c2ce11a3128
+                        Position: {X: 15.973867, Y: -0.9337286, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    461a1f96a2f00082f3e5ef88c621a249: !SpriteComponent
+                        Id: a828383f-766f-4d67-b257-676971de341a
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 19
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    5c11ddbb0eda6fc0eac1070230691383: !StaticColliderComponent
+                        Id: 5ab9b8f5-d27d-4e5b-8a7f-047f4af92bb6
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            c776123558e53e286a631079f7269b6d: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 2.4, Y: 5.7, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: -0.1, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: 1bfddd08-cfa8-443e-b9b7-c44254193447
                 Name: Background
@@ -25,13 +153,179 @@ Hierarchy:
                         Id: f26aa096-9a75-4761-9cbc-a2381a9ba8b1
                         Texture: 6886b639-95e8-47ae-8059-19eec7a059f8:Level01/Background
                         Is2D: true
+        -   Folder: WorldElements
+            Entity:
+                Id: 1d699832-4418-45b3-8b5e-b33cf54861ec
+                Name: Ground
+                Components:
+                    c84dc826bc2a052f354fec34f337193f: !TransformComponent
+                        Id: 9a9feb02-649f-4700-9bda-ec673c592c20
+                        Position: {X: 36.630424, Y: -4.8852196, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1c451403344a068fbb2d97d1b92b031a: !SpriteComponent
+                        Id: 43fa5dc3-cd6a-4c20-9d8b-37972453c9c8
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 16
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    95e4518364216719df8fa1690a8d10cc: !StaticColliderComponent
+                        Id: bd982512-e737-46b6-875f-b8b9316a2c3b
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            4776a760b4ca8fab7a068c5f4b9f97fa: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 18.5, Y: 6.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: -0.2, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: 21367b76-f7d1-4c37-910f-daf2c4e3bc34
+                Name: Bush
+                Components:
+                    5a0d622f602b6d685936edeaeae30f31: !TransformComponent
+                        Id: a1de6dcc-2b41-4981-9041-1048e01646e0
+                        Position: {X: 65.78573, Y: -1.3280842, Z: -0.48001286}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    78d5f68a5688d701715917935673ae19: !SpriteComponent
+                        Id: 7bfb2936-63b0-4ca6-987e-981b8b03eee4
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 35
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: 2a014faf-32bb-48ff-9418-783f509be09a
+                Name: Tree
+                Components:
+                    156f659655fa9c88c04dea12aa101399: !TransformComponent
+                        Id: b15f9a3a-70c1-47af-80f2-9557c0130501
+                        Position: {X: 50.426933, Y: -0.5452159, Z: -3.2822537}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cbbf3ec595b689af1fe3cdbdd294ee51: !SpriteComponent
+                        Id: fc40dd86-43da-4aed-ae93-b744b155e078
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 40
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: 3c60af17-208d-4c7e-a2ee-1ccffe4b4f21
+                Name: Ground
+                Components:
+                    c84dc826bc2a052f354fec34f337193f: !TransformComponent
+                        Id: f3d4cb5b-b04b-4d71-bbab-475e7b98b9c9
+                        Position: {X: 18.417948, Y: -4.8852196, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1c451403344a068fbb2d97d1b92b031a: !SpriteComponent
+                        Id: c3f4f050-e2e4-4a47-9d29-6f5fa8b55a14
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 16
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    95e4518364216719df8fa1690a8d10cc: !StaticColliderComponent
+                        Id: 894a1361-4f36-4360-b4fa-86ccefc997b4
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            4776a760b4ca8fab7a068c5f4b9f97fa: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 18.5, Y: 6.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: -0.2, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: 3f468b45-fe6c-4f32-8931-2a50211f2ddc
+                Name: MediumPlatform
+                Components:
+                    8ae2ca9b0aa0d1e61b60d4153cf64872: !TransformComponent
+                        Id: 7545c5e9-e4ad-4202-8c21-8ba3f4a4d867
+                        Position: {X: 29.493769, Y: -3.9460616, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    461a1f96a2f00082f3e5ef88c621a249: !SpriteComponent
+                        Id: 2054784d-885c-4b93-be93-c682e13b5818
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 19
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    5c11ddbb0eda6fc0eac1070230691383: !StaticColliderComponent
+                        Id: 4a61ebd9-42aa-4753-a775-25c195533077
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            c776123558e53e286a631079f7269b6d: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 2.4, Y: 5.7, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: -0.1, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: 40e4bd9d-2ac5-467e-a9c7-ad8978de0da0
+                Name: SmallPlatform
+                Components:
+                    e385fb31f96659c05580948b9506b0b3: !TransformComponent
+                        Id: 7b36d353-2ff5-431d-b6e7-e668a702f3c8
+                        Position: {X: 35.175205, Y: -1.4962409, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    322994094ec9363dab339019cbabce6a: !SpriteComponent
+                        Id: b87c1353-21a7-4d94-8805-4b941260ce0e
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 17
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    a9b3ad21356108cab79c65fbfac95777: !StaticColliderComponent
+                        Id: a75dd350-34e4-414f-9bc2-d68b8700f207
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            6c23d85e0985b73b6a2abea4f223d1e7: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 4.8, Y: 4.2, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: -0.25, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: 42694756-c145-45bb-b737-ad92d2b69242
                 Name: GhostHunter
                 Components:
                     6a93edbbfed471a7a54c8efa3defaa87: !TransformComponent
                         Id: a6f1a434-e48e-450a-9910-f66faf9a90dc
-                        Position: {X: 0.061298847, Y: 3.9856355, Z: 0.0}
+                        Position: {X: 0.13981771, Y: 1.4419022, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -59,8 +353,8 @@ Hierarchy:
                                 Size: {X: 2.0, Y: 3.2, Z: 0.0}
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    a685b3e4d14a3e20dba5259a9a748f9b: !GhostHunterV0.GhostHunterControls,PlatformerTutorial
-                        Id: 6a313e94-9c83-4346-b759-1ea06bee5ea2
+                    6350b34a62e79fa887b904164aea7c02: !PlatformerTutorial.GhostHunterControls,PlatformerTutorial
+                        Id: be4619a8-b7d6-4ecc-816f-e3cde1e41290
                         Speed: 5.0
         -   Entity:
                 Id: 4d579abb-81b1-4443-aa5b-ec391ba16bce
@@ -79,10 +373,100 @@ Hierarchy:
                         NearClipPlane: 0.6
                         FarClipPlane: 100.0
                         Slot: f4cf0ff8-a3ca-42bb-8d0c-3fabac99cd1b
+                    fd3278e789890dd21b07590839668cb8: !PlatformerTutorial.Camera.CameraBehaviour,PlatformerTutorial
+                        Id: 7fbcf8ce-40e3-4703-b85a-39738436580c
+                        EntityToFollow: ref!! 42694756-c145-45bb-b737-ad92d2b69242
+                        Offset: {X: 0.0, Y: 2.0, Z: 16.0}
+                        FollowSpeed: 3.0
+        -   Folder: WorldElements
+            Entity:
+                Id: 66090274-10a0-4dd0-8de1-cda7b859ce60
+                Name: Bush
+                Components:
+                    5a0d622f602b6d685936edeaeae30f31: !TransformComponent
+                        Id: 6f61b3ec-0a1e-4c33-bd88-4c2e7caa20a1
+                        Position: {X: 16.76403, Y: -1.3710387, Z: -0.48001286}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    78d5f68a5688d701715917935673ae19: !SpriteComponent
+                        Id: af76574d-cbf6-4c8f-a35d-95b40cd076e3
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 31
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: 6bbe82a7-f28b-4b10-8794-648c7be257b5
+                Name: Bush
+                Components:
+                    5a0d622f602b6d685936edeaeae30f31: !TransformComponent
+                        Id: 258dde3f-3119-4837-82a1-760899672c26
+                        Position: {X: 41.47348, Y: -1.3280842, Z: -0.48001286}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    78d5f68a5688d701715917935673ae19: !SpriteComponent
+                        Id: 40b36fb9-21d9-45b0-87e3-5ff77d5790ef
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 31
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: 75d08f1b-42a4-4c7e-aeb0-227b01859a43
+                Name: Bush
+                Components:
+                    5a0d622f602b6d685936edeaeae30f31: !TransformComponent
+                        Id: 9bdf2b30-2bc0-4996-9861-974fa568f2ba
+                        Position: {X: 10.001431, Y: -1.3710387, Z: -0.48001286}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    78d5f68a5688d701715917935673ae19: !SpriteComponent
+                        Id: eefea374-045b-41c9-865e-bb6128f87b75
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 31
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: 78816e70-a1bb-4b59-83d5-cf074c5bec00
+                Name: Tree
+                Components:
+                    156f659655fa9c88c04dea12aa101399: !TransformComponent
+                        Id: a0cae4ef-537a-4ebd-8e9a-82b261f76cab
+                        Position: {X: 23.579075, Y: -0.8396714, Z: -2.671022}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cbbf3ec595b689af1fe3cdbdd294ee51: !SpriteComponent
+                        Id: 978d4a9a-94e9-4cc8-b481-aad56f467086
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 40
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: 809d7915-4aa2-47ad-94ed-9aff8c3b72bc
+                Name: Tree
+                Components:
+                    156f659655fa9c88c04dea12aa101399: !TransformComponent
+                        Id: bf7f53d3-9e99-4194-afdf-665a37b80775
+                        Position: {X: -6.7165647, Y: -0.8396714, Z: -2.671022}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cbbf3ec595b689af1fe3cdbdd294ee51: !SpriteComponent
+                        Id: 116ee9ea-cbe9-4897-b6e8-03b29d64d468
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 40
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
         -   Folder: WorldElements
             Entity:
                 Id: 98b3b686-ba5c-4e81-b9fe-d26b96a06b50
-                Name: platform
+                Name: Ground
                 Components:
                     c84dc826bc2a052f354fec34f337193f: !TransformComponent
                         Id: 571698a6-a87d-4e46-ad06-f73e2a79c2fd
@@ -112,3 +496,290 @@ Hierarchy:
                                 Size: {X: 18.5, Y: 6.0, Z: 1.0}
                                 LocalOffset: {X: 0.0, Y: -0.2, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: a8177dc0-d1df-4c1e-b9d2-c4c1d2f05659
+                Name: Tree
+                Components:
+                    156f659655fa9c88c04dea12aa101399: !TransformComponent
+                        Id: c9fb8fe4-f129-4ae3-8d25-713663a26841
+                        Position: {X: 20.370466, Y: 0.0, Z: -0.9607985}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cbbf3ec595b689af1fe3cdbdd294ee51: !SpriteComponent
+                        Id: 4c816621-c4f9-4255-99ae-935ea3c5ecc8
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 39
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: b5316301-c7e1-4de6-8b8d-3220776af538
+                Name: Tree
+                Components:
+                    156f659655fa9c88c04dea12aa101399: !TransformComponent
+                        Id: 7923fa89-3812-4583-9e52-0cfe5b25f546
+                        Position: {X: 39.902393, Y: -1.4824487, Z: -3.2822537}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cbbf3ec595b689af1fe3cdbdd294ee51: !SpriteComponent
+                        Id: cf00ee60-f5d6-4166-b9f4-3f3054887874
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 40
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: c35dda9d-f26e-4c3a-861a-17ab5448a519
+                Name: Hill
+                Components:
+                    2879b353bf709d0ec718fbd4ef971550: !TransformComponent
+                        Id: 354cee29-9fdd-4430-bf33-494c6e21c7f3
+                        Position: {X: -3.487537, Y: -2.9731016, Z: -15.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.0, Y: 3.0, Z: 1.0}
+                        Children: {}
+                    69c00131b57eeb4ec477e8418135a6b9: !SpriteComponent
+                        Id: 16f81a95-ad27-4344-a98a-a3c49ba446d8
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 42
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: c739b448-2e48-4887-8e1f-2e4d5f8e55f0
+                Name: Hill
+                Components:
+                    2879b353bf709d0ec718fbd4ef971550: !TransformComponent
+                        Id: 743ad595-b9bf-45ff-aeb5-f3a6708fbbcf
+                        Position: {X: 30.263145, Y: -2.973, Z: -15.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.0, Y: 3.0, Z: 1.0}
+                        Children: {}
+                    69c00131b57eeb4ec477e8418135a6b9: !SpriteComponent
+                        Id: f7889d4f-057f-4172-926d-73157b8e0474
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 42
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: c9aba220-f6b1-4566-a0bb-8a7bdff698d9
+                Name: Tree
+                Components:
+                    156f659655fa9c88c04dea12aa101399: !TransformComponent
+                        Id: 5370a9c2-b4c2-4994-953c-4497969e20c2
+                        Position: {X: 31.66056, Y: 0.5127948, Z: -3.2822537}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cbbf3ec595b689af1fe3cdbdd294ee51: !SpriteComponent
+                        Id: 5976a7e5-fbb8-43d0-885b-544083c99bce
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 39
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: d1219b0f-bcb7-4674-aa48-5c261817dc7f
+                Name: Hill
+                Components:
+                    2879b353bf709d0ec718fbd4ef971550: !TransformComponent
+                        Id: 78cb6518-0bbf-4452-b7d5-b30201e00d4f
+                        Position: {X: -37.218784, Y: -3.9331074, Z: -15.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.0, Y: 3.0, Z: 1.0}
+                        Children: {}
+                    69c00131b57eeb4ec477e8418135a6b9: !SpriteComponent
+                        Id: 5af5094f-50ce-4171-b266-6a29d937ab39
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 43
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: d2c2b038-5614-4c06-b13e-00c7e54417b3
+                Name: SmallPlatform
+                Components:
+                    e385fb31f96659c05580948b9506b0b3: !TransformComponent
+                        Id: 185f24ec-ae01-48fa-8648-df5d32d65b9a
+                        Position: {X: 12.510297, Y: -1.4962409, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    322994094ec9363dab339019cbabce6a: !SpriteComponent
+                        Id: fef5212e-22de-4c9c-9476-ef8e30463e6a
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 17
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    a9b3ad21356108cab79c65fbfac95777: !StaticColliderComponent
+                        Id: b75eb4e5-96e0-46a4-913d-67037b0ea91a
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            6c23d85e0985b73b6a2abea4f223d1e7: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 4.8, Y: 4.2, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: -0.25, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: d749d9c4-9fe1-4a67-b2bf-8df962a88d61
+                Name: Tree
+                Components:
+                    156f659655fa9c88c04dea12aa101399: !TransformComponent
+                        Id: 4e10f665-cb41-41a9-86f2-ed997e0fe7df
+                        Position: {X: 57.737152, Y: -0.5452159, Z: -3.2822537}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cbbf3ec595b689af1fe3cdbdd294ee51: !SpriteComponent
+                        Id: ab497f92-8028-455f-87ec-1c46c3d3c075
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 39
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: ddfbee70-14aa-4d3f-8497-59724419e843
+                Name: Hill
+                Components:
+                    2879b353bf709d0ec718fbd4ef971550: !TransformComponent
+                        Id: 467a35ec-d71b-4578-b7bb-8cffa661bdea
+                        Position: {X: 63.928905, Y: -3.9331074, Z: -15.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.0, Y: 3.0, Z: 1.0}
+                        Children: {}
+                    69c00131b57eeb4ec477e8418135a6b9: !SpriteComponent
+                        Id: 85c5b009-5b0b-486d-981f-5b62fac6b1be
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 43
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: de2b3522-fc55-4205-8df8-cb51d2609058
+                Name: Bush
+                Components:
+                    5a0d622f602b6d685936edeaeae30f31: !TransformComponent
+                        Id: c4f8151f-caea-4c7d-b210-083ec50b74e2
+                        Position: {X: 25.6513, Y: -1.3710387, Z: -0.48001286}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    78d5f68a5688d701715917935673ae19: !SpriteComponent
+                        Id: ee7ece49-22ad-447f-a73a-536f5258765f
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 31
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: f3df12c3-2cfa-42f7-8eb0-943643e66ba6
+                Name: MediumPlatform
+                Components:
+                    8ae2ca9b0aa0d1e61b60d4153cf64872: !TransformComponent
+                        Id: 42189086-a796-4ddd-9245-763105eb7bbc
+                        Position: {X: 31.60696, Y: -3.1484337, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    461a1f96a2f00082f3e5ef88c621a249: !SpriteComponent
+                        Id: 8b34bc6f-8ae5-4865-b5aa-d2b47203f203
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 19
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    5c11ddbb0eda6fc0eac1070230691383: !StaticColliderComponent
+                        Id: 91f3c12d-d83b-4006-af2d-3db2e3650568
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            c776123558e53e286a631079f7269b6d: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 2.4, Y: 5.7, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: -0.1, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: f5074b0d-0f0d-477f-929b-33ff27d8cad4
+                Name: Tree
+                Components:
+                    156f659655fa9c88c04dea12aa101399: !TransformComponent
+                        Id: d53dd5a4-bbf0-4381-ad24-8146e0dec931
+                        Position: {X: 4.4457417, Y: 0.0, Z: -1.9836283}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cbbf3ec595b689af1fe3cdbdd294ee51: !SpriteComponent
+                        Id: d26af79d-529d-46f4-98fd-b3fb687076a3
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 39
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: f7fa74b3-1af3-4b47-920a-8ccf3f7b57af
+                Name: Bush
+                Components:
+                    5a0d622f602b6d685936edeaeae30f31: !TransformComponent
+                        Id: 8b296815-9c62-4a1b-8494-ddba2e75f0fa
+                        Position: {X: 3.2547019, Y: -1.3710387, Z: -0.48001286}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    78d5f68a5688d701715917935673ae19: !SpriteComponent
+                        Id: 4c9f4796-0349-4710-9f05-dfd98913bb50
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 31
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: ff2eae59-113a-432e-a343-89d17ae68074
+                Name: Hill
+                Components:
+                    2879b353bf709d0ec718fbd4ef971550: !TransformComponent
+                        Id: 84da9ca0-a8d4-4954-bd1f-b3e7046a434a
+                        Position: {X: 97.588486, Y: -3.9331074, Z: -15.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 3.0, Y: 3.0, Z: 1.0}
+                        Children: {}
+                    69c00131b57eeb4ec477e8418135a6b9: !SpriteComponent
+                        Id: c2926182-1ccd-4bf0-8873-a4127ecbc72c
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 43
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Folder: WorldElements
+            Entity:
+                Id: ff960e85-e054-42b6-bc9c-9c91ceca44c8
+                Name: Bush
+                Components:
+                    5a0d622f602b6d685936edeaeae30f31: !TransformComponent
+                        Id: 28436793-7c7a-4ae4-aacd-21dd8fc76fdc
+                        Position: {X: 38.086266, Y: -1.6293317, Z: -0.48001286}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    78d5f68a5688d701715917935673ae19: !SpriteComponent
+                        Id: 8ecccc40-e673-4857-9046-88fccc09aabf
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 34
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}

@@ -4,7 +4,7 @@ using Stride.Input; // Importing the Stride input library for handling user inpu
 using Stride.Physics; // Importing the Stride physics library
 using Stride.Rendering.Sprites; // Importing the Stride sprite rendering library
 
-namespace GhostHunterV0
+namespace PlatformerTutorial
 {
     public class GhostHunterControls : SyncScript
     {
