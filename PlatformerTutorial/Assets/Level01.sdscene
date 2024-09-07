@@ -39,6 +39,7 @@ Hierarchy:
         - ref!! 6bbe82a7-f28b-4b10-8794-648c7be257b5
         - ref!! 21367b76-f7d1-4c37-910f-daf2c4e3bc34
         - ref!! ff960e85-e054-42b6-bc9c-9c91ceca44c8
+        - ref!! fbff7d2a-4b32-4a5c-9d78-d0be44c69791
     Parts:
         -   Folder: WorldElements
             Entity:
@@ -325,7 +326,7 @@ Hierarchy:
                 Components:
                     6a93edbbfed471a7a54c8efa3defaa87: !TransformComponent
                         Id: a6f1a434-e48e-450a-9910-f66faf9a90dc
-                        Position: {X: 0.13981771, Y: 1.4419022, Z: 0.0}
+                        Position: {X: 11.810612, Y: 2.3554888, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -353,9 +354,15 @@ Hierarchy:
                                 Size: {X: 2.0, Y: 3.2, Z: 0.0}
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    6350b34a62e79fa887b904164aea7c02: !PlatformerTutorial.GhostHunterControls,PlatformerTutorial
-                        Id: be4619a8-b7d6-4ecc-816f-e3cde1e41290
+                    cf9566c460eeef2411a595fddab2f9ce: !PlatformerTutorial.Characters.GameCharacter,PlatformerTutorial
+                        Id: 854267d4-b938-4db4-94d6-8e5985318257
+                        Health: 100.0
                         Speed: 5.0
+                        CharacterType: MainCharacter
+                        ControlType: Keyboard
+                        CurrentState: null
+                    cb9b409f87f921bac8693ecea4afdfb8: !PlatformerTutorial.Characters.Controls.keyboardControl,PlatformerTutorial
+                        Id: ce6f6b21-b724-4cdb-9558-9d0be41f94de
         -   Entity:
                 Id: 4d579abb-81b1-4443-aa5b-ec391ba16bce
                 Name: Camera
@@ -749,6 +756,47 @@ Hierarchy:
                             Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
                             CurrentFrame: 31
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: fbff7d2a-4b32-4a5c-9d78-d0be44c69791
+                Name: GhostHunter
+                Components:
+                    6a93edbbfed471a7a54c8efa3defaa87: !TransformComponent
+                        Id: 0f11e8e0-b8a6-4044-9312-b94d10ac9322
+                        Position: {X: -4.7534733, Y: 0.021661758, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7d24e656f6e7aba770617299e5a67d35: !SpriteComponent
+                        Id: 51e8a3d7-2d25-4553-9585-e5d219c2ad5e
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 9f7cd4ba-8e63-47c9-8271-c116cc5f5b6c:Level01/SpriteSheet
+                            CurrentFrame: 14
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    a31143f20fd97f4e936608bf715c90b8: !CharacterComponent
+                        Id: b7dadbd6-bf58-44dc-815c-45343e035e26
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 20.0
+                        MaxSlope: {Radians: 0.7853982}
+                        JumpSpeed: 10.0
+                        Gravity: {X: 0.0, Y: -20.0, Z: 0.0}
+                        ColliderShapes:
+                            fac0a4bea4b00b30e0e456315cb9e66c: !BoxColliderShapeDesc
+                                Is2D: true
+                                Size: {X: 2.0, Y: 3.2, Z: 0.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    cf9566c460eeef2411a595fddab2f9ce: !PlatformerTutorial.Characters.GameCharacter,PlatformerTutorial
+                        Id: 1f97da72-d48d-4dd8-af6a-89878a892973
+                        Health: 100.0
+                        Speed: 5.0
+                        CharacterType: Ghost
+                        ControlType: None
+                        CurrentState: null
         -   Folder: WorldElements
             Entity:
                 Id: ff2eae59-113a-432e-a343-89d17ae68074
